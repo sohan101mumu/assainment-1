@@ -9,10 +9,11 @@ body{
     padding-right: 2%;
 }
 .half-width{
-    width: 50%;
+    width: 80%;
+    padding-left: 10px;
 }
 .half-width img{
-    width: 60%;
+    width: 80%;
 }
 h1{
     font-size: 60px;
@@ -66,6 +67,14 @@ margin-bottom: 20px;
 }
 .extra-style{
 margin-top: 150px;
+margin-bottom: 150px;
 background-image:url(images/shapes/shape-1.png);
 background-repeat: no-repeat;
+background-position: left;
+background-size: 300px;
+margin-left: 10px;
+}
+.padding{
+    padding-left: 50px;
+    margin-left: 50px;
 }
