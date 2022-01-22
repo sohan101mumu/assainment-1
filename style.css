@@ -4,13 +4,15 @@ body{
 .display-flex{
     display:flex;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding-left: 5%;
+    padding-right: 2%;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
 }
 h1{
     font-size: 60px;
@@ -24,4 +26,46 @@ h1{
 }
 .orange{
     color: orange;
+}
+.mission{
+    boxs-hadow:10px 10px 10px solid;
+}
+.align-center{
+    text-align: center;
+}
+.style-added-1{
+    background-color: paleturquoise;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5%;
+    padding-right: 0;
+    border-radius: 20px;
+    width: 33%;
+}
+.style-added-2{
+    background-color:navajowhite;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5%;
+    padding-right: 0;
+    border-radius: 20px;
+    width: 33%;
+}
+.style-added-3{
+    background-color:blanchedalmond;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5%;
+    padding-right:0px;
+    border-radius: 20px;
+    width: 33%; 
+}
+.uniq-one{
+margin:2%;
+margin-bottom: 20px;
+}
+.extra-style{
+margin-top: 150px;
+background-image:url(images/shapes/shape-1.png);
+background-repeat: no-repeat;
 }
