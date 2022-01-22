@@ -8,6 +8,15 @@ body{
     padding-left: 5%;
     padding-right: 2%;
 }
+.add-background-img{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    margin-left: 10px;
+}
 .half-width{
     width: 80%;
     padding-left: 10px;
@@ -16,14 +25,15 @@ body{
     width: 80%;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .link-button{
     text-decoration: none;
     background-color: tomato;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px 10px;
     border-radius: 5px;
+    color:white;
+    font-size:20px;
 }
 .orange{
     color: orange;
@@ -62,19 +72,33 @@ h1{
     width: 33%; 
 }
 .uniq-one{
-margin:2%;
-margin-bottom: 20px;
+    margin:2%;
+    margin-bottom: 20px;
 }
 .extra-style{
-margin-top: 150px;
-margin-bottom: 150px;
-background-image:url(images/shapes/shape-1.png);
-background-repeat: no-repeat;
-background-position: left;
-background-size: 300px;
-margin-left: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image:url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+    margin-left: 10px;
 }
 .padding{
     padding-left: 50px;
     margin-left: 50px;
+}
+.background-color-black{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 50px;
+}
+.white{
+   color: white;
+}
+.red{
+    color: red;
 }
